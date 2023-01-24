@@ -1,6 +1,12 @@
 body {
-    font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
+    font: 30px "Century Gothic", Futura, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(22, 18, 18);
+    color: #fff;
+    background-image: url('./background1.jpg');
 }
 
 ol,
@@ -16,21 +22,23 @@ ul {
 
 .status {
     margin-bottom: 10px;
+    color: rgb(35, 34, 34);
 }
 
 .square {
-    background: #fff;
+    background: rgb(227, 219, 219);
     border: 1px solid #999;
+    border-radius: 2%;
     float: left;
-    font-size: 24px;
+    font-size: 50px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
+    height: 100px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 100px;
 }
 
 .square:focus {
